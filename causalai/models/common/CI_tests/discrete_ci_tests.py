@@ -3,7 +3,7 @@ import numpy as np
 from numpy import ndarray
 import pandas as pd
 from typing import Tuple, List, Union, Optional
-
+import logging
 class DiscreteCI_tests:
     '''
     Performs CI test for discrete variables using the specified method. The null hypothesis
